@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>YatirimlariGosterDialog</class>
+ <widget class="QWidget" name="YatirimlariGosterDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Aidatlar</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2">
+    <widget class="QComboBox" name="comboBox">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>2017</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2018</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2019</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>260</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Yıl</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>259</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>Üye No</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>İsim Soyisim</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Toplam Yatırım</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ocak</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Şubat</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Mart</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nisan</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Mayıs</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Haziran</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Temmuz</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ağustos</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Eylül</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ekim</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Kasım</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Aralık</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

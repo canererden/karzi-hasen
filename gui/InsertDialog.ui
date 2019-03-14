@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertDialog</class>
+ <widget class="QDialog" name="InsertDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>274</width>
+    <height>241</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Yeni Üye Kaydı</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="isim_input">
+     <property name="placeholderText">
+      <string>İsim</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLineEdit" name="email_input">
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>email</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="tc_input">
+     <property name="inputMask">
+      <string>99999999999</string>
+     </property>
+     <property name="placeholderText">
+      <string>TC. Kimlik No.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="soyisim_input">
+     <property name="placeholderText">
+      <string>Soyisim</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLineEdit" name="telefon_input">
+     <property name="inputMask">
+      <string>(999)-999-9999</string>
+     </property>
+     <property name="placeholderText">
+      <string>Telefon</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="btn_uye_ekle">
+     <property name="text">
+      <string>Üye Ekle</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="adres_input">
+     <property name="placeholderText">
+      <string>Adres</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tc_input</tabstop>
+  <tabstop>isim_input</tabstop>
+  <tabstop>soyisim_input</tabstop>
+  <tabstop>telefon_input</tabstop>
+  <tabstop>email_input</tabstop>
+  <tabstop>adres_input</tabstop>
+  <tabstop>btn_uye_ekle</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Geliştirici</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>İletişim: cerden@sakarya.edu.tr</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Geliştirici: Caner Erden</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;KARZ-I HASEN KURALLARI&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;1. Bu sandık gönüllülük esaslı, gayri resmi birlikteliktir. Bu sandığın kuruluş gayesi; üyelerin yardımlaşarak ihtiyaçlarını gidermektir. Sandığa bağış kabul edilir. Yapılan bağışlar sadece borç vermede kullanılır.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;2. Katılımcı aidatlarını düzenli olarak ödemekle mükelleftir. 3(üç) ay üst üste aidatını ödemeyen katılımcı sistemden çıkarılır.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;3. Aylık katılım bedelleri, katılımcının seçeceği rakamlar üzerinden küsuratlı olmayacak şekilde olarak belirlenir. Katılımcının toplam yatırımının güncel kasa miktarına oranı %20’yi (yüzde yirmi) geçemez.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;4. Katılımcı; kasadaki yatırımının en fazla 3 katı kadar borç alabilir. 3 katın üstündeki borç talepleri sandık sorumlu heyeti tarafından, sandığın durumuna göre değerlendirilir.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;5. Borç almak isteyen katılımcılar bir ay önceden heyetten talepte bulunur. Bir dönemde katılımcıların alacağı toplam borç dönem içerisindeki kasa miktarının %60’ını (yüzde altmış) geçemez. Bir dönemde birden fazla borç isteği olması durumunda talep önceliği, daha önceki borç kullanım durumu ve acil durumlar dikkate alınarak kararlaştırılır.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;6. Yatırımlar açılacak Kuveyt Türk hesabına yatırılacaktır. Aidat ödeme, borç alma ve borç ödeme işlemlerinin tamamı (gr altın) üzerinden yapılacaktır. Aksi hiçbir ödeme ya da borç alma şekli kabul edilemez.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;7. Aidatlar her ayın 15’i ile 17’si arasında toplanır.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;8. Verilen borç; en fazla, takip eden 9 ay içerisinde eşit taksitlerle tahsil edilecektir. Borçlanan katılımcı hangi ödeme planını uygulayacağını borçlanma esnasında belirtmek zorundadır. Kaza, hastalık, afet vb. sebeplerle borçlu borcunu ödemede zorluk çekerse; Sandık Sorumlu Heyeti, ödeme mühletini uzatabilir.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;9. Katılımcının borcu bitmeden yeni borç verilmeyecektir. &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;10. Borç alan katılımcı, borcunun miktarını, ödeme süresini ve zamanını gösteren bir belge(senet) imzalayacaktır.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;11. Sandık yönetimiyle 3(üç) kişilik heyet ilgilenecektir. Sandık üyelerinden borç isteyenlerden kime ne kadar borç verileceğine Heyet karar verecektir. Heyet; sandığa üyelik ve sandıktan çıkarma yetkisine sahiptir. Sandık yönetimi her ay rapor hazırlayıp katılımcılara bildirilecektir.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;12. Ayrılmak isteyen katılımcının altını kasanın durumuna göre en kısa sürede iade edilir.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;13. Sandık üyesi bir katılımcının vefatı hâlinde biriken hisseleri en kısa sürede mirasçılarına verilecektir. Eğer merhumun sandığa borcu varsa, duruma göre; vefatından 40 gün sonra mirasçılarından talep edilecektir. 3 ay içinde ilk ödeme gerçekleşmezse ya kefilleri ya da ödemeyi kabul eden sandık üyeleri tarafından borç ödenir.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,3 @@
+terminal'e
+pyinstaller --onefile --icon images/karz_i_hasen_icon.ico karzihasen.py 
+yaz.
